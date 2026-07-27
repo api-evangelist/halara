@@ -1,20 +1,49 @@
 aid: halara
 name: Halara
-description: 'Halara is a company surfaced as a portfolio company of hongshan and added to the API Evangelist
-  network as a stub for enrichment. Sector: consumer. This profile is a lead awaiting the enrichment pipeline.'
+description: >-
+  Halara is a direct-to-consumer athleisure and activewear fashion brand for
+  women, best known for its versatile Active Dress and its Halara Flex fabric
+  technology. Its Shopify-based online store sells exercise dresses, leggings,
+  tennis skirts, joggers, pants, sports bras, loungewear, sweaters, and denim
+  under the tagline "Athleisure for 365 Versions of You." Halara runs a mobile
+  shopping app and a customer loyalty program (The Halara Circle), and is
+  backed by Hongshan (formerly Sequoia Capital China). Halara publishes no
+  public developer API; this API Evangelist profile captures the company's
+  public web, brand, and policy properties for network discovery.
 url: https://raw.githubusercontent.com/api-evangelist/halara/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://mpir.halarastatic.com/upload/online/59/13/22/06/22/_7756834691-750x.jpg
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - hongshan
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-has-public-api: false
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
 - Consumer
+- Retail
+- Ecommerce
+- Fashion
+- Apparel
+- Activewear
+- Athleisure
+- Direct-to-Consumer
+- Shopify
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,5 +51,40 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/halara-domain-security.yml
 - type: Website
-  url: https://thehalara.com
+  url: https://www.halara.com
+- type: About
+  url: https://www.halara.com/pages/aboutus
+- type: Support
+  url: https://www.halara.com/pages/faq
+- type: Blog
+  url: https://www.halara.com/blog/
+- type: TermsOfService
+  url: https://www.halara.com/pages/terms-of-service
+- type: PrivacyPolicy
+  url: https://www.halara.com/pages/privacy-policy
+- type: Login
+  url: https://www.halara.com/account/login
+- type: ShippingPolicy
+  url: https://www.halara.com/pages/shipping-customs
+- type: ReturnPolicy
+  url: https://www.halara.com/pages/return-exchange
+- type: CookiePolicy
+  url: https://www.halara.com/pages/cookie-policy
+- type: Accessibility
+  url: https://www.halara.com/pages/accessibilityStatement
+- type: Sustainability
+  url: https://www.halara.com/pages/sustainability
+- type: Careers
+  url: https://www.halara.com/pages/career
+- type: Press
+  url: https://www.halara.com/pages/pressNews
+- type: MobileApp
+  url: https://apps.apple.com/us/app/halara/id1545920983
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
